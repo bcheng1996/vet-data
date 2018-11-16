@@ -1,0 +1,10 @@
+name,class_size,num_applicants,res_applicants,nonres_applicants,ratio,overall_gpa,science_gpa
+Virginia,128,1605,341,1264,12.5,3.4,3
+Ohio,162,1320,255,1065,8.1,3.5,3.4
+Michigan,115,842,215,627,7.3,3.6,3.5
+Colorado,150,2152,206,1946,14.3,3.7,3.6
+Upenn,119,1156,221,935,9.7,3.6,3.6
+North Carolina,100,922,183,739,9.2,3.7,3.6
+Illinois,134,864,207,657,6.4,3.5,3.4
+Lmemory,129,1117,NA,1117,8.7,3.2,3.1
+Western,105,760,330,430,7.2,3.3,3.3

@@ -1,0 +1,29 @@
+<div class="container">
+  <table class="centered highlight">
+    <thead>
+      <tr>
+        {{#each data.titles}}
+          <th>{{this}}</th>
+        {{/each}}
+      </tr>
+      <tbody>
+        {{#each data.data}}
+          <tr class="row">
+            {{#each this}}
+              <td>{{this}}</td>
+            {{/each}}
+          </tr>
+        {{/each}}
+      </tbody>
+    </thead>
+  </table>
+</div>
+
+
+<script>
+  $(".row").on("click", function(){
+    let school = ($(this)[0].children[0].innerHTML);
+    let url = '/chart/' + school;
+    window.location.href=url;
+  })
+</script>
