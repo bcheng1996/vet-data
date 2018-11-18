@@ -48,6 +48,6 @@ app.get("/chart/:school", function(req,res) {
 
 });
 
-app.listen(process.env.PORT||PORT, function() {
+app.listen(PORT, function() {
     console.log('Server listening on port:', PORT);
 });
